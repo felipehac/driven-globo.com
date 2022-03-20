@@ -1,5 +1,20 @@
+/* #region Global */
 :root {
   --black: #303134;
+  --border: #f5f6f7;
+  --g1: #c3170c;
+  --g1-header: #c4160c;
+  --o-globo: #1e4b9b;
+  --valor: #006766;
+  --ge: #07aa47;
+  --ge-header: #16ae54;
+  --cartola: #e3662b;
+  --globoplay: #fb0735;
+  --dropz: #ff75bb;
+  --gshow: #ec7d00;
+  --gshow-header: #ec8006;
+  --quem: #323333;
+  --receitas: #a81d83;
 }
 
 body {
@@ -10,3 +25,206 @@ a {
   text-decoration: none;
   color: var(--black);
 }
+
+.h-separator {
+  width: 100%;
+  height: 1px;
+  background: var(--border);
+}
+
+.v-separator {
+  width: 1px;
+  height: 100%;
+  background: var(--border);
+}
+
+.max-content-width {
+  margin: auto;
+  max-width: 1250px;
+}
+
+/* #endregion Global */
+
+/* #region Header */
+
+header {
+  margin: auto;
+}
+
+header .logo {
+  display: flex;
+  justify-content: center;
+  height: 80px;
+  align-items: center;
+}
+
+nav {
+  font-size: 19px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  height: 44px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul li a:hover {
+  filter: brightness(1.5);
+}
+
+nav ul li a.g1 {
+  color: var(--g1);
+}
+
+nav ul li a.o-globo {
+  color: var(--o-globo);
+}
+
+nav ul li a.valor {
+  color: var(--valor);
+}
+
+nav ul li a.ge {
+  color: var(--ge);
+}
+
+nav ul li a.cartola {
+  color: var(--cartola);
+}
+
+nav ul li a.globoplay {
+  color: var(--globoplay);
+}
+
+nav ul li a.dropz {
+  color: var(--dropz);
+}
+
+nav ul li a.gshow {
+  color: var(--gshow);
+}
+
+nav ul li a.quem {
+  color: var(--quem);
+}
+
+nav ul li a.receitas {
+  color: var(--receitas);
+}
+
+/* #endregion Header */
+
+/* #region Main */
+main {
+  padding-top: 36px;
+  display: flex;
+  column-gap: 36px;
+}
+/* #endregion Main */
+
+/* #region Cards */
+.card {
+  flex: 1;
+}
+
+.card .card-image img {
+  max-width: 100%;
+  border-radius: 12px;
+}
+
+.card .card-text h2 {
+  margin: 11px 0 6px 0;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+
+.card .card-text h3 {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 25px;
+  margin-bottom: 15px;
+  letter-spacing: -0.045em;
+}
+
+.card .card-text ul li {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  letter-spacing: -0.048em;
+}
+/* #endregion Cards */
+
+/* #region G1 */
+.g1 {
+  max-width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+}
+
+.g1 .news-main a {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.g1 h2 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 67px;
+  color: var(--g1-header);
+  letter-spacing: -0.045em;
+}
+
+.g1 h3 {
+  color: var(--black);
+}
+
+.g1 ul {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.g1 ul li {
+  color: var(--black);
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  letter-spacing: -0.048em;
+}
+/* #endregion G1 */
+
+/* #region GE */
+
+.ge {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.ge h2 {
+  color: var(--ge);
+}
+/* #endregion GE */
+
+/* #region GShow */
+.gshow {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.gshow h2 {
+  color: var(--gshow-header);
+}
+/* #endregion GShow */

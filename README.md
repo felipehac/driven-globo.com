@@ -10,9 +10,9 @@
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
 </p>
 
-<a href="https://felipehac.github.io/driven-globo.com/" target="_blank">
+<a href="https://felipehac.github.io/driven-globo.com/">
 <p align="center">
-  <img alt="Social Tree Live Demo" src=".github/showcase.png" width="100%">
+  <img alt="Globo.com Live Demo" src=".github/showcase.png" width="100%">
 </p>
 
 <p align="center"><strong>LIVE DEMO</strong></p>
